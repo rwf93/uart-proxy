@@ -18,6 +18,6 @@ pico_set_program_version(${PROJECT} "0.1")
 pico_enable_stdio_usb(${PROJECT} 1)
 pico_enable_stdio_uart(${PROJECT} 1)
 
-target_link_libraries(${PROJECT} pico_stdlib pico_multicore)
+target_link_libraries(${PROJECT} pico_stdlib)
 
 pico_add_extra_outputs(${PROJECT})
